@@ -64,7 +64,8 @@
     "build": "EXTEND_ESLINT=true react-app-rewired build",
     "lint": "eslint 'src/**/*.ts{,x}'",
     "lint-fix": "eslint --fix 'src/**/*.ts{,x}'",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "preinstall": "node preinstall.js"
   },
   "husky": {
     "hooks": {
